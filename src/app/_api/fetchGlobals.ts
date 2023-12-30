@@ -72,7 +72,6 @@ export async function fetchFooter(): Promise<Footer> {
       if (res?.errors) throw new Error(res?.errors[0]?.message || 'Error fetching footer')
       return res.data?.Footer
     })
-
   return footer
 }
 
