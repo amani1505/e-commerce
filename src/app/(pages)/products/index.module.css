@@ -1,0 +1,11 @@
+@forward './queries.scss';
+@forward './type.scss';
+.container {
+  width: 100%;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 75%;
+  gap: 60px;
+}
