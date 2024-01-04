@@ -1,5 +1,5 @@
-@import '../../_css/common';
-
+@forward './queries.scss';
+@forward './type.scss';
 .confirmationPage {
   padding-top: 50px;
   display: flex;
@@ -7,8 +7,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
 
-  p {
-    margin-top: 16px;
-  }
+.confirmationPage p {
+  margin-top: 16px;
 }
